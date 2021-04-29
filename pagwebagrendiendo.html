@@ -1,19 +1,20 @@
 <html>
     <head>
         <div class="div">
-            <title>Mi pagina web</title>
+            <title >Mi pagina web</title>
             <link href="estilos.css" rel="stylesheet"/>
             <style>
 
             </style>
         </div>
         <meta charset="utf-8"/> 
-        
+        <script type="text/javascript" src="jquery-3.6.0.js"></script>
+        <script type="text/javascript" src="aplicacion.js"></script>
         
     </head>
     <body>
         <header id="cabecera"> 
-            <p>Programando pagina web de MAITE</p>
+            <p id="esto">Programando pagina web de MAITE</p>
             <nav>
                 <ol>
                     <li><a target = "_blank" href="https://cursos.canvas.uc.cl/" title="Ir a Tablero">canvas</a></li>
@@ -23,31 +24,36 @@
             </nav>
         </header>    
         <hr>
-        <h1 class="destacado"> MI PAGINA WEB</h1>
+        <h1 id="titulo" class="destacado"> MI PAGINA WEB</h1>
         <p>Esta es mi primrea pagina web, llamada <strong>"MAIWEB".</strong></p>
+
         <div class="parrafo">
+            <button id="boton">borrar cabecera</button>
+            <button id="aparecer">aparecer cabecera</button>
+            <button id="boton2">cambiar titulo</button>
+
             <p>Me gusta mucho ver series de netflix. Actualmente estoy viendo dinastia, the walking dead y euphoria.</p>
         </div>
         <div class="div">
             <hr>
-            <img src="the-walking-dead-estrena-teaser-de-latemporada-11.jpg_1902800913.jpg" width="300" alt="Imagen twd"/>
+            <img class="imag" src="the-walking-dead-estrena-teaser-de-latemporada-11.jpg_1902800913.jpg" width="300" alt="Imagen twd"/>
             <p class="parr">the walking dead la estoy viendo con un amigo al igual que euphoria</p>
         </div>
         <div class="div">
             <hr>
             <cite>Hamlet</cite>
             <p><blockquote>"Ser o no ser"</blockquote></p>
-            <img src="1200px-Bernhardt_Hamlet2.jpg" width="300" alt="Imagen hamlet"/>
+            <img class="imag" src="1200px-Bernhardt_Hamlet2.jpg" width="300" alt="Imagen hamlet"/>
         </div>
         <div class="mai">
             <hr>
-            <cite>Mai Latorre</cite>
+            <cite class="imag">Mai Latorre</cite>
             <p><blockquote>"se feliz y come lo que quieras:)"</blockquote></p>
-            <img src="a9b291740b712b0d5535c01756d78a25 (1).jpg" width="300" alt="Imagen feliz"/>
+            <img class="imag" src="a9b291740b712b0d5535c01756d78a25 (1).jpg" width="300" alt="Imagen feliz"/>
         </div>
         <div id="yo">
             <hr>
-            <p>SOBRE MI</p>
+            <p id="colorcito">SOBRE MI</p>
             <p>Me gusta bailar, comer y jugar futbol:)</p>
         </div>
         <div id="insta">

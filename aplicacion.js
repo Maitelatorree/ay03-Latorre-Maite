@@ -2,7 +2,7 @@ $(document).ready(function(){
     var boton = $("#boton");
     var boton2 = $("#boton2");
     var aparecer = $("#aparecer");
-    var cambiar = $("#colorcito");
+    var cambiar = $("#yo");
 
     boton.mouseenter(function(){
         $(this).fadeTo("fast",0.5)
@@ -27,7 +27,7 @@ $(document).ready(function(){
     });
 
     cambiar.mouseenter(function(){ 
-        $("#colorcito").css("color","pink")
+        $("#yo").css("background-color","pink")
 
     });
 });
